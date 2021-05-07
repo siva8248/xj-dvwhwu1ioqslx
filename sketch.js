@@ -8,8 +8,8 @@ var b15,b16,b17,b18,b19,b20,b21,b22,b23,b24,b25,b26,b27,b28,b29,b30,b31;
 var b32,b33,b34,b35,b36,b37,b38;
 var backgroundImg;
 
-function preload() {
-
+function preload() { 
+  getTime();
 }
 
 function setup() {
@@ -102,7 +102,6 @@ function draw() {
   b35.display();
   b36.display();
   b32.display();
-  getTime();
   drawSprites();
 }
 function mouseDragged(){
